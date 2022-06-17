@@ -41,6 +41,9 @@ class ProductInfo {
 
   listIngredients() {
     let tableRef = document.getElementById('ingredient-table')
+    for(let i = 1; i< tableRef.ariaRowSpan.length;){
+      tableRef.deleteRow(i)
+    }
     for(let key in this.ingredients){
       let newRow = tableRef.insertRow(-1)
       let newICell= newRow.insertCell(0)
