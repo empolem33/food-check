@@ -60,3 +60,12 @@ table{
 table,th,td{
   border: 1px solid;
 background-color: aliceblue;}
+.non-veg-item{
+  background-color: red;
+}
+.maybe-item{
+  background-color: yellow;
+}
+.yes-veg{
+  background-color: green;
+}
